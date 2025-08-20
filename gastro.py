@@ -1,9 +1,12 @@
 import json
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
+import os
+
+
 
 # 🔑 Token del bot (de BotFather)
-TELEGRAM_TOKEN = "8363379423:AAERPXRai25SFiyg1pjghKqm_pGlvXQjIRw"
+TELEGRAM_TOKEN = os.getenv("8363379423:AAERPXRai25SFiyg1pjghKqm_pGlvXQjIRw")
 
 # Cargar base de datos de enfermedades desde JSON
 with open("enfermedades.json", "r", encoding="utf-8") as f:
