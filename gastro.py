@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # 🔑 Token desde variable de entorno
-TELEGRAM_TOKEN = os.getenv("8363379423:AAERPXRai25SFiyg1pjghKqm_pGlvXQjIRw")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 if not TELEGRAM_TOKEN:
     raise ValueError("❌ ERROR: No se encontró el token. Define la variable de entorno TELEGRAM_TOKEN.")
