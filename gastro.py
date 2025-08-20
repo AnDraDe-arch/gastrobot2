@@ -3,13 +3,12 @@ import json
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-# 🔑 Token desde variable de entorno
+# 🔑 Leer token desde variable de entorno
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-
 if not TELEGRAM_TOKEN:
     raise ValueError("❌ ERROR: No se encontró el token. Define la variable de entorno TELEGRAM_TOKEN.")
 
-# Cargar base de datos de enfermedades
+# 🔹 Cargar enfermedades desde JSON
 with open("enfermedades.json", "r", encoding="utf-8") as f:
     enfermedades = json.load(f)
 
@@ -26,7 +25,7 @@ async def lista(update: Update, context: ContextTypes.DEFAULT_TYPE):
     lista_texto = "📖 Enfermedades disponibles:\n\n" + "\n".join([f"- {n.title()}" for n in nombres])
     await update.message.reply_text(lista_texto)
 
-# Responder consultas
+# Responder consultas de enfermedades
 async def responder(update: Update, context: ContextTypes.DEFAULT_TYPE):
     consulta = update.message.text.lower().strip()
 
