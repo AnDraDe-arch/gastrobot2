@@ -1,0 +1,92 @@
+{
+  "gastritis": {
+    "descripcion": "Inflamación del revestimiento del estómago.",
+    "sintomas": "Dolor abdominal, náusea, vómito, sensación de ardor.",
+    "prevencion": "Evitar alcohol, tabaco, comidas picantes o grasosas.",
+    "cuandollamar": "Si el dolor es intenso, hay vómito con sangre o heces negras."
+  },
+  "colitis": {
+    "descripcion": "Inflamación del colon.",
+    "sintomas": "Diarrea, dolor abdominal, urgencia para evacuar.",
+    "prevencion": "Dieta rica en fibra, evitar estrés, mantener hidratación.",
+    "cuandollamar": "Si hay diarrea con sangre, fiebre o deshidratación."
+  },
+  "ulcera": {
+    "descripcion": "Herida en el estómago o duodeno.",
+    "sintomas": "Dolor ardoroso, vómitos, pérdida de peso.",
+    "prevencion": "Evitar uso excesivo de antiinflamatorios, alcohol y tabaco.",
+    "cuandollamar": "Si hay vómitos con sangre o dolor abdominal muy fuerte."
+  },
+  "reflujo": {
+    "descripcion": "El ácido del estómago sube hacia el esófago.",
+    "sintomas": "Ardor en el pecho, tos crónica, dolor al tragar.",
+    "prevencion": "No comer en exceso, evitar comidas grasosas, no acostarse después de comer.",
+    "cuandollamar": "Si el ardor es frecuente o interfiere con la vida diaria."
+  },
+  "sindrome de colon irritable": {
+    "descripcion": "Trastorno intestinal funcional que afecta al colon.",
+    "sintomas": "Dolor abdominal, diarrea o estreñimiento, gases.",
+    "prevencion": "Alimentación balanceada, controlar el estrés, actividad física.",
+    "cuandollamar": "Si los síntomas son persistentes o muy dolorosos."
+  },
+  "enfermedad de crohn": {
+    "descripcion": "Enfermedad inflamatoria crónica del intestino.",
+    "sintomas": "Diarrea crónica, dolor abdominal, pérdida de peso.",
+    "prevencion": "No hay prevención clara, pero se recomienda dieta saludable y no fumar.",
+    "cuandollamar": "Si hay pérdida de peso significativa o diarrea con sangre."
+  },
+  "colitis ulcerosa": {
+    "descripcion": "Inflamación crónica del colon y recto.",
+    "sintomas": "Diarrea con sangre, dolor abdominal, cansancio.",
+    "prevencion": "No se puede prevenir, pero una dieta equilibrada ayuda.",
+    "cuandollamar": "Si hay sangrado rectal abundante o dolor intenso."
+  },
+  "hepatitis": {
+    "descripcion": "Inflamación del hígado causada por virus o toxinas.",
+    "sintomas": "Cansancio, ictericia, dolor en la parte superior derecha del abdomen.",
+    "prevencion": "Vacunación (hepatitis A y B), higiene, evitar alcohol.",
+    "cuandollamar": "Si hay color amarillo en piel u ojos o dolor fuerte."
+  },
+  "pancreatitis": {
+    "descripcion": "Inflamación del páncreas.",
+    "sintomas": "Dolor abdominal fuerte, náusea, vómito.",
+    "prevencion": "Evitar alcohol, controlar triglicéridos, dieta saludable.",
+    "cuandollamar": "Si hay dolor abdominal súbito muy fuerte o vómitos persistentes."
+  },
+  "apendicitis": {
+    "descripcion": "Inflamación del apéndice, requiere cirugía.",
+    "sintomas": "Dolor en el abdomen inferior derecho, fiebre, vómitos.",
+    "prevencion": "No hay prevención clara.",
+    "cuandollamar": "Si hay dolor intenso que empeora rápidamente."
+  },
+  "cancer de colon": {
+    "descripcion": "Crecimiento maligno en el colon.",
+    "sintomas": "Sangre en heces, cambios en hábitos intestinales, pérdida de peso.",
+    "prevencion": "Dieta rica en fibra, chequeos médicos regulares, evitar alcohol y tabaco.",
+    "cuandollamar": "Si hay sangrado rectal o pérdida de peso sin causa aparente."
+  },
+  "cancer gastrico": {
+    "descripcion": "Cáncer que se desarrolla en el estómago.",
+    "sintomas": "Dolor abdominal, vómito, dificultad para tragar.",
+    "prevencion": "Dieta saludable, evitar tabaco y alcohol.",
+    "cuandollamar": "Si hay pérdida de peso, vómitos con sangre o dificultad para tragar."
+  },
+  "hemorroides": {
+    "descripcion": "Venas inflamadas en el recto o ano.",
+    "sintomas": "Dolor al evacuar, sangrado, picazón anal.",
+    "prevencion": "Dieta con fibra, buena hidratación, evitar estreñimiento.",
+    "cuandollamar": "Si hay sangrado abundante o dolor muy intenso."
+  },
+  "diverticulitis": {
+    "descripcion": "Inflamación de divertículos en el colon.",
+    "sintomas": "Dolor abdominal (izquierdo), fiebre, estreñimiento.",
+    "prevencion": "Dieta rica en fibra, buena hidratación.",
+    "cuandollamar": "Si hay fiebre alta o dolor abdominal intenso."
+  },
+  "esteatosis hepatica": {
+    "descripcion": "Acumulación de grasa en el hígado (hígado graso).",
+    "sintomas": "Muchas veces sin síntomas, a veces cansancio o dolor en el abdomen.",
+    "prevencion": "Alimentación balanceada, evitar alcohol, controlar peso.",
+    "cuandollamar": "Si se detecta en estudios médicos o hay dolor persistente."
+  }
+}
